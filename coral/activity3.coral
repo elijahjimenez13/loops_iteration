@@ -1,0 +1,22 @@
+integer currValue
+integer valuesSum
+integer numValues
+integer i
+float averageValue
+
+numValues = Get next input
+valuesSum = 0
+
+// Loop variable initialized
+i = 0
+
+// Loop expression
+while i < numValues
+   currValue = Get next input
+   valuesSum = valuesSum + currValue
+   // Loop variable update
+   i = i + 1
+   
+averageValue = (1.0 * valuesSum) / numValues
+Put "Average: " to output
+Put averageValue to output
